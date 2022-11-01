@@ -1,0 +1,16 @@
+mod {
+  wizards.newContentElement.wizardItems.plugins {
+    elements {
+      ot_imageupload {
+        iconIdentifier = ot-imageupload
+        title = LLL:EXT:ot_imageupload/Resources/Private/Language/locallang_be.xlf:wizard.title
+        description = LLL:EXT:ot_imageupload/Resources/Private/Language/locallang_be.xlf:wizard.description
+        tt_content_defValues {
+          CType = list
+          list_type = otimageupload_upload
+        }
+      }
+    }
+    show = *
+  }
+}

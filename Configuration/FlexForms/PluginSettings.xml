@@ -1,0 +1,28 @@
+<T3DataStructure>
+    <meta>
+        <langDisable>1</langDisable>
+    </meta>
+    <sheets>
+        <sDEF>
+            <ROOT>
+                <sheetTitle>
+                    LLL:EXT:ot_imageupload/Resources/Private/Language/locallang_be.xlf:tt_content.pi_flexform.sheetGeneral
+                </sheetTitle>
+                <type>array</type>
+                <el>
+                    <settings.subdirectory>
+                        <label>
+                            LLL:EXT:ot_imageupload/Resources/Private/Language/locallang_be.xlf:tt_content.pi_flexform.subdirectory.label
+                        </label>
+                        <description>
+                            LLL:EXT:ot_imageupload/Resources/Private/Language/locallang_be.xlf:tt_content.pi_flexform.subdirectory.description
+                        </description>
+                        <config>
+                            <type>input</type>
+                        </config>
+                    </settings.subdirectory>
+                </el>
+            </ROOT>
+        </sDEF>
+    </sheets>
+</T3DataStructure>

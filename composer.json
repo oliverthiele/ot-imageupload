@@ -1,0 +1,29 @@
+{
+	"name": "oliverthiele/ot-imageupload",
+	"type": "typo3-cms-extension",
+	"description": "Extension for image uploads in the website frontend",
+	"authors": [
+		{
+			"name": "Oliver Thiele",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"typo3/cms-core": "^11.5"
+	},
+	"autoload": {
+		"psr-4": {
+			"OliverThiele\\OtImageupload\\": "Classes"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"OliverThiele\\OtImageupload\\Tests\\": "Tests"
+		}
+	},
+	"extra": {
+		"typo3/cms": {
+			"extension-key": "ot_imageupload"
+		}
+	}
+}

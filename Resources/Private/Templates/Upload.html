@@ -1,0 +1,31 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+      data-namespace-typo3-fluid="true">
+<f:if condition="{errors}">
+    <h2>Errors:</h2>
+    <ul>
+        <f:for each="{errors}" key="name" as="errorMessages">
+            <li>
+                <b>{name}</b>
+                <ul>
+                    <f:for each="{errorMessages}" as="errorMessage">
+                        <li>{errorMessage}</li>
+                    </f:for>
+                </ul>
+            </li>
+        </f:for>
+    </ul>
+</f:if>
+
+<f:if condition="{uploadedFiles}">
+    <h2>Uploaded images:</h2>
+    <f:for each="{uploadedFiles}" as="image">
+        <figure class="figure">
+            <f:image class="figure-img img-fluid rounded" image="{image}" maxWidth="200" maxHeight="200"/>
+            <figcaption class="figure-caption">{image.name}</figcaption>
+        </figure>
+        <br />
+    </f:for>
+</f:if>
+
+</html>

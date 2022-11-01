@@ -1,0 +1,24 @@
+plugin {
+  tx_otimageupload_upload {
+    settings {
+#      todo:
+#      allowedMimeTypes = image/jpeg,image/png
+      fileSize {
+        min = 100
+        max = 100000000
+      }
+
+      imageDimensions {
+        width {
+          min = 1400
+          max = 4000
+        }
+
+        height {
+          min = 1000
+          max = 2000
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+# cat=Basic/links/a1; type=string; label=Image Upload: Subdirectory in the directory fileadmin/
+imageUploadPath=SecureUpload/
+
+# cat=Basic/links/b1; type=string; label=Additional Directory: Subdirectory for manual image check
+additionalDirectory=Unchecked/
+
+# cat=Basic/enable/a1; type=boolean; label=Add Directory For Frontend User: The uid will be used as default directory name
+addDirectoryForUser=0
+
+# cat=Basic/enable/a2; type=string; label=DB Field -> Directory name: Use this db field for the user specific directory [Default: uid].
+fieldForUserDirectoryName=uid
+
+cat=Validation/others/a1; type=string; label=Allowed MIME Types: Default: image/jpeg,image/png
+allowedMimeTypes=image/jpeg,image/png

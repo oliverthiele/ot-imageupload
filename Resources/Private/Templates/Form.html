@@ -1,0 +1,17 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+      data-namespace-typo3-fluid="true">
+
+<h2>Image upload</h2>
+
+<f:form action="upload" method="POST" enctype="multipart/form-data">
+    <f:form.hidden name="maxFileSize" value="{maxFileSize}"/>
+    <f:form.hidden name="multiple" value="{multiple}"/>
+    <f:form.hidden name="imageObjects[]" value=""/>
+
+    <f:form.upload name="images" additionalAttributes="{'accept' : 'image/*'}" multiple="{multiple}"/>
+    <br />
+    <f:form.submit class="btn btn-primary mt-3" value="Image Upload"/>
+</f:form>
+
+</html>
