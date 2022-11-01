@@ -10,5 +10,5 @@ addDirectoryForUser=0
 # cat=Basic/enable/a2; type=string; label=DB Field -> Directory name: Use this db field for the user specific directory [Default: uid].
 fieldForUserDirectoryName=uid
 
-cat=Validation/others/a1; type=string; label=Allowed MIME Types: Default: image/jpeg,image/png
+#cat=Validation/others/a1; type=string; label=Allowed MIME Types: Default: image/jpeg,image/png
 allowedMimeTypes=image/jpeg,image/png
